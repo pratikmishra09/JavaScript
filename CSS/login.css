@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+body{
+    background-color: rgb(66, 149, 221);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+}
+#main{
+    border: solid black ;
+    height: 500px;
+    width: 500px;
+    background-color: aliceblue;
+}
+#login{
+    margin-top: 10px;
+    text-align: center;
+}

@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: darkgray;
+}
+.content{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns:  1fr 1fr; 
+    gap: 11px;
+    background-color: darkolivegreen;
+    height: 400px;
+    width: 500px;
+}
+.first{
+    background-color: red;
+}
+.second{
+    background-color: yellow;
+}
+.third{
+    background-color: purple;
+} 
+.four{
+    background-color: darkblue;
+}

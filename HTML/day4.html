@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>University Registration From </h1>
+        <p>Please fill the form and give your information</p>
+        <hr>
+        <hr>
+        <br> <br>
+        <h2>Personal Details </h2>
+        <form action="submit">
+            <label for="fname">Firstname:</label>
+            <input type="text" name="Firstname" id="fname" placeholder="Eg : Pratik" required>
+            <br> <br>
+            <label for="Lastname">Lastname:</label>
+            <input type="text" name="Lastname" id="Lastname" placeholder="Eg : Mishra">
+            <br> <br>
+            <label for="Dob">Date Of Birth:</label>
+            <input type="date" name="Dob" id="Dob" value="Dob">
+            <br> <br>
+            <label for="Gender">Gender:</label>
+            <br>
+            <label for="male">Male</label>
+            <input type="radio" name="Gender" id="male" value="male">
+            <br>
+            <label for="Female">Female</label>
+            <input type="radio" name="Gender" id="Female" value="Female">
+            <br>
+            <label for="Other">Other</label>
+            <input type="radio" name="Gender" id="Other" value="Other">
+            <br> <br>
+            <label>Upload a photo:</label>
+            <input type="file" name="Filename" id="Filename" value="Firstname">
+            <hr>
+            <hr>
+            <h2>Contact Information</h2>
+            <label for="email">Email Address:</label>
+            <input type="email" name="email" id="email" placeholder="mishrajee@gamil.com">
+            <br>
+            <label for="num">Phone Number:</label>
+            <input type="number" name="num" id="num" placeholder="6202142394">
+            <br>
+            <label for="Address">Mailing Address:</label>
+            <br>
+            <textarea name="Address" id="Address" rows="10" cols="30"></textarea>
+            <hr>
+            <hr>
+            <h2>Academic Information</h2>
+            <label for="coruse">Select Your Course:</label>
+            <br>
+            <select name="coruse" id="coruse">
+                <option value="CSE">CSE</option>
+                <option value="MECH">MECH</option>
+                <option value="ECE">ECE</option>
+                <option value="IT">IT</option>
+                <option value="Other">Other</option>
+            </select>
+            <label for="Ext">Extracurricular Interest:</label>
+            <br>
+            <label for="Music">Music</label>
+            <input type="checkbox" name="Music" id="Music" value="Music">
+            <br>
+            <label for="Sports">Sports</label>
+            <input type="checkbox" name="Sports" id="Sports" value="Sports">
+            <br>
+            <label for="Arts">Arts</label>
+            <input type="checkbox" name="Arts" id="Arts" value="Arts">
+            <br>
+            <label for="Other">Other</label>
+            <input type="checkbox" name="Other" id="Other" value="Other">
+            <hr>
+            <hr>
+            <h2>Create Your Account</h2>
+            <label for="password">Create a password:</label>
+            <input type="password" name="password" id="password" placeholder="Eg Mishra12*@@et">
+            <br>
+            <label for="Security">Security Question:</label>
+            <select name="Security" id="Security">
+                <option value="Enter Your pet name ">Enter Your pet name</option>
+                <option value="What is your name ">What is your name </option>
+            </select>
+            <br>
+            <label for="Security Answere">Security Answere:</label>
+            <input type="text" name="Security Answere" id="Security Answere">
+            <br>
+            <label for="Agree"> I Agree to the term and condation </label>
+
+            <input type="checkbox" name="Agree" id="Agree">
+            <button type="submit">Register</button>
+            <button type="reset">Clear</button>
+
+        </form>
+    </header>
+</body>
+
+</html>

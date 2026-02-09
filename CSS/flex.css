@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: aqua;
+    display: flex;
+   
+}
+#new{
+    display: flex;
+    height: 400px;
+    width: 400px;
+    background-color: cadetblue;
+    display:flex table-rows;
+}
+
+#newbox1{
+    justify-content: end;
+    height: 100px;
+    width: 100px;
+    background-color: rebeccapurple;
+    margin: 10px;
+}
+#newbox2{
+     height: 100px;
+    width: 100px;
+    background-color: rebeccapurple;
+    margin: 10px;
+}
